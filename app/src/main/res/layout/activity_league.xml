@@ -65,7 +65,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
             android:text="Mens"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             tools:text="Mens" />
 
         <Button
@@ -76,7 +76,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
             android:text="Womens"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             tools:text="Womens" />
 
         <Button
@@ -87,7 +87,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
             android:text="Co-ed"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             tools:text="Co-ed" />
 
     </LinearLayout>
