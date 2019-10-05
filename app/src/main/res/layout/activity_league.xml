@@ -57,38 +57,44 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/desiredLeague">
 
-        <Button
-            android:id="@+id/tougleButton"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/swoosh_toggle"
-            android:text="Mens"
-            android:textColor="@android:color/black"
-            tools:text="Mens" />
-
-        <Button
-            android:id="@+id/tougleButton2"
+        <ToggleButton
+            android:id="@+id/mens_league_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
-            android:text="Womens"
-            android:textColor="@android:color/black"
-            tools:text="Womens" />
+            android:onClick="onMensClicked"
+            android:text="MENS"
+            android:textOff="MENS"
+            android:textOn="MENS"
+            tools:text="MENS" />
 
-        <Button
-            android:id="@+id/tougleButton3"
+        <ToggleButton
+            android:id="@+id/womens_league_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
-            android:text="Co-ed"
-            android:textColor="@android:color/black"
-            tools:text="Co-ed" />
+            android:onClick="onWomensClicked"
+            android:text="WOMENS"
+            android:textOff="MENS"
+            android:textOn="MENS"
+            tools:text="WOMENS" />
+
+        <ToggleButton
+            android:id="@+id/coeds_league_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/swoosh_toggle"
+            android:onClick="onCoedClicked"
+            android:text="CO-ED"
+            android:textOff="MENS"
+            android:textOn="MENS"
+            tools:text="CO-ED" />
 
     </LinearLayout>
 

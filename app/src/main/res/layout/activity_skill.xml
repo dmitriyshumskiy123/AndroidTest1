@@ -62,6 +62,8 @@
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
             android:text="BEGINNER"
+            android:textOff="BEGINNER"
+            android:textOn="BEGINNER"
             tools:text="BEGINNER" />
 
         <ToggleButton
@@ -72,6 +74,8 @@
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
             android:text="BALLER"
+            android:textOff="BALLER"
+            android:textOn="BALLER"
             tools:text="BALLER" />
     </LinearLayout>
 
